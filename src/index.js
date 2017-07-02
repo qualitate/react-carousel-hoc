@@ -1,3 +1,5 @@
+import React from 'react';
+
 function carouselHOC(WrappedComponent) {
   return class Enhancer extends WrappedComponent {
     constructor(props) {
